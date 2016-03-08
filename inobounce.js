@@ -98,7 +98,7 @@
 		disable: disable,
 		isEnabled: isEnabled
 	};
-
+        /* AMD loading is not working
 	if (typeof module !== 'undefined' && module.exports) {
 		// Node.js Support
 		module.exports = iNoBounce;
@@ -110,7 +110,8 @@
 		}(global.define));
 	}
 	else {
+	*/
 		// Browser support
 		global.iNoBounce = iNoBounce;
-	}
+	//}
 }(this));
